@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD_project</title>
 </head>
+
 <body>
-    
-    <script src="./main.js"></script>
+    <h1>CRUD project</h1>
+    <p style="color: blue"><b><i>Main information:</i></b></p>
+    <label for="lastname">Lastname:</label>
+    <textarea id="lastname" name="lastname" rows="1" cols="20"></textarea>
+    <br>
+    <label for="firstname">Firstname:</label>
+    <textarea id="fisrtname" name="firstname" rows="1" cols="20"></textarea>
+    <br>
+    <label for="age">Age:</label>
+    <textarea id="age" name="age" rows="1" cols="20"></textarea>
+    <br>
+    <p style="color: Blue"><b><i>Address:</i></b></p>
+    <label for="region">Region:</label>
+    <textarea id="region" name="region" rows="1" cols="20"></textarea>
+    <br>
+    <label for="district">District:</label>
+    <textarea id="district" name="district" rows="1" cols="20"></textarea>
+    <br>
+    <label for="street">Street:</label>
+    <textarea id="street" name="street" rows="1" cols="20"></textarea>
+    <br>
+    <label for="apartment">Apartment:</label>
+    <textarea id="apartment" name="apartment" rows="1" cols="20"></textarea>
+    <br>
+    <br>
+    <button onclick="addItem()">add</button>
+    <br>
+    <br>
+    <button onclick="print()">print</button>
+    <textarea name="print" id="print" cols="30" rows="10"></textarea>
+    <script src="./main-1.js"></script>
 </body>
+
 </html>

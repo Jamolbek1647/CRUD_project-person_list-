@@ -30,7 +30,7 @@ function addItem() {
 
 function print(){
     let response = document.getElementById('print')
-    return response.value = persons
+    return response.value = JSON.stringify(persons[0])
 }
 
 function SynctoLocalStorage(){
@@ -40,3 +40,4 @@ function SynctoLocalStorage(){
 function SyncfromLocalStorage(){
     const get_from_local = localStorage.getItem('persons')
 }
+//consoleda qilish kerak
